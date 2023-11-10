@@ -6,8 +6,14 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
+    public function index()
+    {
+    return 'Hello, Laravel!';
+    }
+    /*
     public function hello()
     {
         return 'Hello, Laravel!';
     }
+    */
 }
